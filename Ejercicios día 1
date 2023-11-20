@@ -1,0 +1,145 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "25e406e4",
+   "metadata": {},
+   "source": [
+    "# Python básico\n",
+    "\n",
+    "Ana Belén Romero Losada\n",
+    "Departamento de Ciencias de la Computación e Inteligencia Artificial\n",
+    "Universidad de Sevila\n",
+    "\n",
+    "En esta hoja de trabajo vamos a ver lo esencial de Python para poder empezar a practicar con el lenguaje.\n",
+    "\n",
+    "En el entorno Jupyter se trabaja Python sobre un notebook u hoja de trabajo. Esta hoja de trabajo está formada por una secuencia de cajas, que pueden ser de texto, en las que explicar ideas y conceptos, o de código, en las que definir o evaluar funciones Python.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6f83aa55",
+   "metadata": {},
+   "source": [
+    "##  Ejercicio 1\n",
+    "\n",
+    "Crea una función que resuelva una ecuación de segundo grado en jupyter y en R. Compara las diferencias a la hora de realizar operaciones aritméticas y lógicas, declarar variables/objetos y usar las estructuras de control. \n",
+    "\n",
+    "PISTA: existe una función llamada round() para redondear. Se usa como típicamente se usa en R."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "5a496365",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Crea la funcion llamada calculadora\n",
+    "##comprueba si el número que iría dentro de la raiz cuadrada es negativo\n",
+    "###Devuelve 0 y un mensaje de error\n",
+    "##en el caso que no lo sea, resuelve la ecuacion\n",
+    "### imprime por pantalla los siguientes mensajes\n",
+    "####\"ambas soluciones son válidas, x puede valer sol1 y sol2\"\n",
+    "####\"Solo la solucion 1 es válida, x vale sol1\"\n",
+    "####\"Solo la solucion 2 es válida, x vale sol2\"\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "12dde7a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Esta ecuación no tiene solución\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "calculadora(2,4,7)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0bdfc9f1",
+   "metadata": {},
+   "source": [
+    "## Ejercicio 2\n",
+    "\n",
+    "Traduce este pseudocódigo a código en R y python simultáneamente. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d22b6179",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Declara una variable llamada x que valga 2\n",
+    "#Súmale 2 a x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "c04298d3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Declara una variable llamada palabra que valga \"hola\"\n",
+    "#Cuadrupicla la variable palabra\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a9457486",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#añade las palabras \"mundo que tal\" a palabra\n",
+    "#encuentra en que posicion está mundo\n",
+    "#escribelo en mayuscula y cuenta cuantas \"a\" hay (esto hazlo solo en python)\n",
+    " "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
